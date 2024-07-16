@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    padding-left: 20px;
+}
+
+nav button {
+    background-color: rgb(66, 182, 66);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 40px;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px 200px;
+    background-color: rgb(230, 243, 243);
+}
+
+.main-t {
+    margin-top: 50px;
+
+}
+
+.main-t h1 {
+    font-size: 4em;
+}
+
+.main-t h1 span {
+    color: rgb(66, 182, 66);
+}
+
+.main-t h4 {
+    font: 1em sans-serif;
+    margin-top: 10px;
+}
+
+.main button {
+    background-color: rgb(66, 182, 66);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.main img {
+    height: 350px;
+}
+
+section {
+    padding: 50px 200px;
+}
+
+.client-text h1 {   
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.client-text h4 {
+    display: flex;
+    justify-content: center;
+    font: 1em sans-serif;
+    margin-bottom: 50px;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-logo img {
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.client-cards {
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid rgb(235, 232, 232);
+    width: 21.25em;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 13%;
+}
+
+.card-icon {
+    text-align: center;
+}
+
+.card-icon img {
+    height: 50px;
+}
+
+.card-info {
+    text-align: center;
+}
+
+.card-info h1{
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.card-info h4 {
+    font: 1em sans-serif;
+}
+
+.pix {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pix-img img{
+    height: 400px;
+    padding-left: 50px;
+}
+
+.pix-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.pix-text h4 {
+    font: 1.1em sans-serif;
+    margin-bottom: 10px;
+}
+
+.pix-text button {
+    background-color: rgb(66, 182, 66);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+
+.community {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 243, 243);
+}
+
+.cmn-text h1 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+}
+
+.cmn-text h1 span {
+    color: rgb(66, 182, 66);
+}
+
+.cmn-text h4 {
+    font: 1em sans-serif;
+}
+
+.cmn-icon1 , .cmn-icon2 {
+    display: flex;
+    gap: 100px;
+}
+
+.content1 , .content2 , .content3 , .content4 {
+    display: flex;
+    margin: 10px;
+}
+
+.icon1 , .icon2 , .icon3 , .icon4 {
+    margin-right: 10px;
+}
+
+.content1-t h4 {
+    font: 1em sans-serif;
+    padding: 5px;
+}
+
+.desing-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.desing-img img{
+    height: 450px;
+}
+
+.desing-content h1 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+
+.desing-content h4 {
+    font: 1.1em sans-serif;
+    margin-bottom: 10px;
+}
+
+.desing-content button {
+    background-color: rgb(66, 182, 66);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.blog {
+    background-color: rgb(230, 243, 243);
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.blog-img img {
+    height: 300px;
+    width: 300px;
+}
+
+.blog-text h4 {
+    font: 1.1em sans-serif;
+    margin-bottom: 20px;
+    margin: 10px 0px;
+}
+
+.blog-text h3 {
+    font: 1.2em sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(66, 182, 66);
+}
+
+.blog-icon { 
+    display: flex;
+    gap: 50px;
+}
+
+.blog-icon img{
+    height: 50px;   
+    margin-top: 20px;
+}
+
+.blog-text a {
+    vertical-align: text-bottom;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: rgb(66, 182, 66);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.marketing-text h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.4em;   
+    margin-bottom: 10px;
+}
+
+.marketing-text h4 {
+    font: 1.2em sans-serif;
+    text-align: center;
+}
+
+.mkt-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.mkt-img1 img {
+    position: relative;
+    top: 200px;
+    left: 300px;
+    transform: translate(-50% , -50%);
+    z-index: -999;
+    width: 400px;
+}
+
+.card1 {
+    width: 100%;
+}
+
+.card1 h1 {
+    font: 1em;
+}
+
+.card1 a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(66, 182, 66);
+}
+
+.mkt-t1 {
+    position: relative;
+    background-color: rgb(236, 236, 236); /* Darker color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 70%;
+    color: black; /* Ensure text is readable on dark background */
+    left: 25%;
+    bottom: 15%;
+}
+
+.mkt-t1 h1 {
+    margin-bottom: 20px;
+}
+
+.demo {
+    background-color: rgb(230, 243, 243);  
+}
+
+.demo h1 {
+    font-size: 3.3em;;
+    text-align: center;
+}
+
+.demo button {
+    background-color: rgb(66, 182, 66);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 40px;
+    transform: translate(450% , 40%);
+}
+
+.footer {
+    background-color: rgb(65, 68, 94);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+    color: white;
+}
+
+.footer-img img {
+    width: 200px;
+}
+
+.footer-img h4 {
+    font: 1em sans-serif;
+    margin-top: 20px;
+}
+
+.footer-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-icons a {
+    color: white;
+    background-color: rgb(166, 168, 180);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.company , .support{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.company a , .support a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.email h1 , .company h1 , .support h1{
+    font-size: 1.5em;
+
+}
+
+.email input {
+    background-color: rgb(166, 168, 180);
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.email a {
+    position: relative;
+    right: 12%;
+    color: white;
+}
